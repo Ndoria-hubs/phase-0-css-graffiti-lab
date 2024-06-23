@@ -1,1 +1,28 @@
 /* write your override styles here */
+#wall .tag-1 {
+    display: none;
+}
+
+head title {
+    font-size: smaller;
+}
+
+head > link {
+    image-orientation: initial;
+}
+
+head script {
+    color: burlywood;
+}
+
+body #wall #tag-2 {
+    transform-style: preserve-3d;
+}
+
+body div#wall #tag-3.slick {
+    line-break: loose;
+}
+
+div + .parent {
+    justify-content: center;
+}
